@@ -1,0 +1,258 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: linear-gradient(to bottom right, #0a0a0a, #2b2b2b);
+  color: white;
+    overflow-x: hidden;
+   
+}
+
+@media(max-width:600px){
+    .container-fluid{
+        overflow-x: hidden;
+    }
+   header{
+   width: 100%;
+    background-image: url("https://mytasker.com/assets/images/WD-D-banner.jpg");
+  
+    
+    height: 550px !important;
+    color: rgb(14, 14, 14);
+    padding: 100px 20px;
+    text-align: center;
+   } 
+   #ashif{
+    width: 100%;
+    height: 600px !important;
+   }
+     #abdul{
+    width: 100%;
+    height: 500px !important;
+   }
+  
+  
+   nav ul{
+    display: flex;
+    flex-direction: column;
+    gap: 5px !important;
+   }
+   .ts{
+    font-size: 20px;
+    padding: 0px;
+    /* margin-top: 20px; */
+}
+.tss{
+    margin-top: 20px;
+}
+.abouts{
+    margin-top: 15px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+   
+}
+@media(max-width:800px){
+    header{
+     height: 300px !important;
+    } 
+   
+    nav ul{
+     display: flex;
+     flex-direction: column;
+     gap: 5px !important;
+    }
+    .second-project{
+        margin-top: 20px;
+    }
+    .ts{
+        font-size: 20px;
+        padding: 30px;  
+    }
+    .tss{
+        margin-top: 20px;
+    }
+    #visiting-card{
+        margin-top: 20px;
+    }
+     #ashif{
+    width: 100%;
+    height: 400px;
+   }
+     #abdul{
+    width: 100%;
+    height: 400px;
+   }
+  
+   
+    
+ }
+ @media(min-width:800px){
+    .ts{
+        font-size: 18px;
+        padding: 70px;
+ 
+    }
+    .tss{
+        margin-top: 10px;
+    }
+   
+ }
+header{
+    width: 100%;
+    background-image: url("https://mytasker.com/assets/images/WD-D-banner.jpg");
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    
+    height: 450px;
+    color: rgb(14, 14, 14);
+    padding: 100px 20px;
+    text-align: center;
+    
+} 
+nav{
+    box-shadow: 2px 2px 5px rgb(175, 167, 167);
+    padding: 10px;
+   }
+nav ul{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+nav ul li{
+    list-style: none;
+    margin-top: 10px;
+    font-weight:700;
+    font-size: 20px;
+}
+nav ul li a{
+   text-decoration: none;
+   color: black;
+  
+}
+.container{
+    font-family:arial
+}
+
+.Door ,.Windows,.about-me ,.html , .css , .javascript , .reactjs , .bootstrap , .mysql,.contact{
+    color:blue;
+    font-weight: bold;
+}
+.technical-card{
+    transition: 0.5s;
+    background-color: rgb(4, 37, 50);
+    color: white;
+}
+.technical-card:hover{
+    box-shadow: 2px 2px 5px 2px rgb(224, 224, 226), -2px -2px 5px 2px rgb(224, 224, 226);
+    transform: translateY(-10px);
+    transition: 0.5s;
+}
+/* section{
+    width: 85%;
+  margin: auto;
+} */
+.l-contect{
+    padding: 60px 60px;
+    font-family: arial;
+}
+footer{
+    background-color: rgb(247, 242, 242);
+    padding: 30px 20px;
+}
+@keyframes profils {
+    from {
+      opacity: 0;
+      transform: translateX(-500px)translateY(360px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0)translateY(0); 
+    }
+  }
+  @keyframes about {
+    from{
+        opacity: 0;
+        transform: translateX(500px)translateY(-360px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0)translateY(0);
+    } 
+  }
+  @keyframes name{
+    from{
+        opacity: 0;
+        transform: translateY(-15px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+  }
+  @keyframes skill{
+    from{
+        opacity: 0;
+        transform: translateY(-15px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+       
+    }
+  }
+ 
+  #intro{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .profiles{
+    animation: profils 4s ease-in-out;
+  }
+  .abouts{
+    animation: about 4s ease-in-out;
+    font-family: arial;
+  }
+  .name{
+    animation: name 2s ease-in-out;
+  }
+  .skills{
+    animation: skill 5s  ease-in-out ;
+  }
+  #t-skills{
+    margin-top: 50px;
+  }
+  #giticon{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+#door{
+    margin-top: 60px;
+    
+}
+
+   #select{
+    display: flex;
+    gap: 25px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 14px;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    scroll-snap-type: x mandatory; 
+  }
+  #select::-webkit-scrollbar {
+  display: none;        
+}
+.images{
+    border: 10px solid rgb(228, 222, 222);
+      transition: all 0.5s ease-in-out;
+}
+.images:hover{
+    width:220px ;
+    height: 220px;
+   
+
+}
