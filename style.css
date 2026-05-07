@@ -97,14 +97,41 @@ body{
     .tss{
         margin-top: 10px;
     }
+    .name{
+        font-size: 100px;
+        color: rgb(1, 19, 34);
+        font-weight: bold;
+    }
+    .names{
+        font-size: 40px;
+        color: rgb(2, 11, 17);
+        font-weight: bold;
+    }
+   
+ }
+  @media(max-width:600px){
+    
+    
+    .name{
+        font-size: 70px;
+        color: rgb(244, 244, 245);
+        font-weight: bold;
+        font-family: cursive;
+    }
+    .names{
+        font-size: 30px;
+        color: rgb(247, 247, 247);
+        font-weight: bold;
+    }
    
  }
 header{
     width: 100%;
-    background-image: url("https://mytasker.com/assets/images/WD-D-banner.jpg");
+    background-image: url(https://media.hswstatic.com/eyJidWNrZXQiOiJjb250ZW50Lmhzd3N0YXRpYy5jb20iLCJrZXkiOiJnaWZcL2JvdHRsZWQtd2F0ZXItNS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOiIxMjAwIn19fQ==);
     background-position:center;
     background-size:cover;
     background-repeat:no-repeat;
+   
     
     height: 450px;
     color: rgb(14, 14, 14);
